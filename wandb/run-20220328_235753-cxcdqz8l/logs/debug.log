@@ -1,0 +1,228 @@
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from /home/sandeep.nagar/.config/wandb/settings
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from /home/sandeep.nagar/VAE_GeoChem/wandb/settings
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'VAE_k-Mean_GeoChem_ver_04_final.py', 'program': '/home/sandeep.nagar/VAE_GeoChem/VAE_k-Mean_GeoChem_ver_04_final.py'}
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-03-28 23:57:53,385 INFO    MainThread:38300 [wandb_init.py:_log_setup():405] Logging user logs to /home/sandeep.nagar/VAE_GeoChem/wandb/run-20220328_235753-cxcdqz8l/logs/debug.log
+2022-03-28 23:57:53,386 INFO    MainThread:38300 [wandb_init.py:_log_setup():406] Logging internal logs to /home/sandeep.nagar/VAE_GeoChem/wandb/run-20220328_235753-cxcdqz8l/logs/debug-internal.log
+2022-03-28 23:57:53,386 INFO    MainThread:38300 [wandb_init.py:init():439] calling init triggers
+2022-03-28 23:57:53,386 INFO    MainThread:38300 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {}
+2022-03-28 23:57:53,386 INFO    MainThread:38300 [wandb_init.py:init():492] starting backend
+2022-03-28 23:57:53,386 INFO    MainThread:38300 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-03-28 23:57:53,440 INFO    MainThread:38300 [backend.py:ensure_launched():219] starting backend process...
+2022-03-28 23:57:53,456 INFO    MainThread:38300 [backend.py:ensure_launched():224] started backend process with pid: 38320
+2022-03-28 23:57:53,458 INFO    MainThread:38300 [wandb_init.py:init():501] backend started and connected
+2022-03-28 23:57:53,470 INFO    MainThread:38300 [wandb_init.py:init():565] updated telemetry
+2022-03-28 23:57:53,471 INFO    MainThread:38300 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-28 23:57:55,592 INFO    MainThread:38300 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-28 23:57:55,771 INFO    MainThread:38300 [wandb_run.py:_on_init():1763] got version response 
+2022-03-28 23:57:55,771 INFO    MainThread:38300 [wandb_init.py:init():625] starting run threads in backend
+2022-03-28 23:58:00,778 INFO    MainThread:38300 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-28 23:58:00,779 INFO    MainThread:38300 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2022-03-28 23:58:00,780 INFO    MainThread:38300 [wandb_run.py:_redirect():1611] Redirecting console.
+2022-03-28 23:58:00,783 INFO    MainThread:38300 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-28 23:58:00,783 INFO    MainThread:38300 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from /home/sandeep.nagar/.config/wandb/settings
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from /home/sandeep.nagar/VAE_GeoChem/wandb/settings
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'VAE_k-Mean_GeoChem_ver_04_final.py', 'program': '/home/sandeep.nagar/VAE_GeoChem/VAE_k-Mean_GeoChem_ver_04_final.py'}
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_init.py:_log_setup():405] Logging user logs to /home/sandeep.nagar/VAE_GeoChem/wandb/run-20220328_235800-3uwm9chz/logs/debug.log
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_init.py:_log_setup():406] Logging internal logs to /home/sandeep.nagar/VAE_GeoChem/wandb/run-20220328_235800-3uwm9chz/logs/debug-internal.log
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_init.py:init():439] calling init triggers
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'hyper': 'parameter'}
+2022-03-28 23:58:00,795 INFO    MainThread:38300 [wandb_init.py:init():487] wandb.init() called when a run is still active
+2022-03-29 05:16:39,949 INFO    MainThread:38300 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-29 05:16:39,982 INFO    MainThread:38300 [wandb_run.py:_restore():1674] restore
+2022-03-29 05:16:42,945 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 70861
+  total_bytes: 70861
+}
+
+2022-03-29 05:16:43,390 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 70861
+  total_bytes: 70861
+}
+
+2022-03-29 05:16:44,055 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 70861
+  total_bytes: 70861
+}
+
+2022-03-29 05:16:44,157 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1085
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,258 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1085
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,360 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1085
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,461 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1085
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,563 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1085
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,664 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,766 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,867 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:44,969 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:45,071 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:45,172 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:45,274 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:45,375 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:46,287 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+
+2022-03-29 05:16:47,089 INFO    MainThread:38300 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 107081
+  total_bytes: 107081
+}
+local_info {
+}
+
+2022-03-29 05:16:54,108 INFO    MainThread:38300 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-29 05:16:54,108 INFO    MainThread:38300 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-29 05:16:54,141 INFO    MainThread:38300 [wandb_run.py:_footer_sync_info():2822] logging synced files

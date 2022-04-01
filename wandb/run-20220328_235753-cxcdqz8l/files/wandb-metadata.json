@@ -1,0 +1,18 @@
+{
+    "os": "Linux-4.15.0-136-generic-x86_64-with-glibc2.23",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-03-28T18:27:58.760946",
+    "startedAt": "2022-03-28T18:27:53.377060",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/sandeep.nagar/VAE_GeoChem/VAE_k-Mean_GeoChem_ver_04_final.py",
+    "codePath": "VAE_k-Mean_GeoChem_ver_04_final.py",
+    "host": "gnode82",
+    "username": "sandeep.nagar",
+    "executable": "/home/sandeep.nagar/anaconda3/bin/python"
+}
